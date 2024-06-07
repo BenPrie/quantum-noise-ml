@@ -283,4 +283,4 @@ def load_flipped_dataset(dataset_path, steps, test_size, val_size, shuffle=True,
         return train_dataset, val_dataset, test_dataset
 
     # Otherwise, return the numpy arrays.
-    return xs_train, xs_val, xs_test, machine_indices_train, machine_indices_test, machine_indices_val, ys_train, ys_val, ys_test
+    return xs_train, xs_val, xs_test, machine_indices_train, machine_indices_val, machine_indices_test, ys_train, ys_val, ys_test
